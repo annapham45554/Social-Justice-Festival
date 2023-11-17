@@ -84,3 +84,13 @@ The general layout of the website was executed in Adobe XD for high-fidelity wir
 <a href="https://linktr.ee/ravi.yoga">Ravi Dixit</a>
 <br>
 <a href="https://constance-wu.com/gallery/displayimage.php?album=322&pid=24388#top_display_media">Constance Wu</a>
+<br>
+<a href="https://www.freepik.com/premium-photo/girl-father-reading-with-book-learning-home-with-happy-education-development-kids-story-dad-young-child-with-books-happiness-family-house-with-bonding-love-together_48737349.htm">Father and daughter reading</a>
+<br>
+<a href="https://www.istockphoto.com/photo/mature-asian-couple-consulting-couple-relationship-counselling-to-solve-problems-gm1552971025-526534905?phrase=doctor+treating+couple+suffering+with+depression+in+office&searchscope=image%2Cfilm">Couple therapy</a>
+<br>
+<a href="https://collabwork.medium.com/conference-success-a-comprehensive-guide-for-attendees-presenters-and-buyers-94df43477262">Conference activity</a>
+<br>
+<a href="https://www.istockphoto.com/photo/joyful-students-on-campus-gm1303106851-394657510?phrase=vietnamese+friends&searchscope=image%2Cfilm">Group of Asian friends talking</a>
+<br>
+<a href="https://stock.adobe.com/images/more-than-you-expect-custom-apparel-clothes-neatly-folded-on-shelves-stack-of-colorful-clothing-and-baseball-cap-in-the-store/347644497?prev_url=detail">Hats and clothes</a>
