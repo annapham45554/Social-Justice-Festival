@@ -1,7 +1,7 @@
 # Project 1: Digital Time Capsule
 ### by Anna Pham
 ## Project overview
-Asian Mind Care is an organization that mainly focuses on the mental health of Asian Americans and addressing the stigma that affects them due to family, culture, and community. Mental health is a topic that is often ignored in Asian culture because it is seen as unimportant or a weakness, which is why the rate of depression and suicide in the Asian community is so high because many Asian Americans suffer in silence due to their mental health needs are not being met by their family. 
+Asian Mind Care is an organization that mainly focuses on the mental health of Asian Americans and addressing the stigma that affects them due to family, culture, and community. 
 
 Asian Mind Care hosts a 3-day festival with multiple events over 3 days, which include: 
 <ol>
