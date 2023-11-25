@@ -20,22 +20,36 @@ Asian Mind Care’s website consists of 5 pages: Home, About, Event, Merchandise
 The general layout of the website was executed in Adobe XD for high-fidelity wireframes. The logo and graphic images were executed in Adobe Illustrator. 
 <img src="./img/hi-fi Wireframe.png" alt="Asian Mind Care">
 
-<a href ="https://xd.adobe.com/view/a6858b24-f37c-4ef2-8dd2-6c4a31626a81-f3d6/">Adobe XD hi-fi wireframe</a>
+<a href ="https://xd.adobe.com/view/19f488c3-3878-4ef8-a4b6-ecc5f5318c68-4ca7/">Adobe XD hi-fi wireframe</a>
 
-#### Elements that are frequently used in HTML are:
+#### Fonts
+<ul>
+<li><a href="https://fonts.adobe.com/fonts/finalsix">FinalSix</a> - José M. Urós</li>
+<li><a href="https://fonts.adobe.com/fonts/big-city-grotesque#fonts-section">BigCity Grotesque</a> - Ilya Ruderman and Yury Ostromentsky</li> 
+<li><a href="https://fonts.adobe.com/fonts/europa">Europa</a> -  Fabian Leuenberger</li>  
+</ul>
+
+#### Website inspiration
+<ul>
+<li><a href="https://www.betterhelp.com/">betterhelp</a></li>
+<li><a href="https://apn.com/">All Points North</a></li>
+<li><a href="https://www.asianmhc.org/#">asian mental health collective</a></li>
+</ul>
+
+#### Elements that are frequently used in HTML
 <ul>
 <li>h1 h2 h3 (heading)</li>
 <li>p (paragraph)</li>
 <li>img (images) Used for both PNG or JPG images</li>
-<li>div or div class and div id (target specific parts of a document)</li>
+<li>div or div class and div id</li>
+<li>span or span class and span id</li>
 <li>ul li (unordered list)</li>
 <li>header footer (for header and footer content)</li>
 <li>nav (navigation)</li>
 <li>br (line break)</li>
 </ul>
 
-
-#### Properties that are frequently used in CSS are:
+#### Properties that are frequently used in CSS
 <ul>
 <li>Background-color or color</li>
 <li>Padding</li>
@@ -55,6 +69,7 @@ The general layout of the website was executed in Adobe XD for high-fidelity wir
 <li>animation-fill-mode</li>
 <li>animation-iteration-count</li>
 <li>:hover</li>
+<li>@media</li>
 </ul>
 
 ## Acknowledgment
