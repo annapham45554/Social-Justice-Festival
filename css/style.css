@@ -3,3 +3,151 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Header */
+header{
+    display: flex;
+    position: sticky;
+}
+
+#home{
+    width: 30%;
+    margin: 0;
+    margin-right: 20%;
+}
+
+.colorlogocontainer {
+    display: block;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    overflow: hidden; 
+    max-width: 1000px;
+    min-width: 500px;
+}
+
+.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+.menu > a {
+    display: block;
+    padding: 1em;
+}
+
+/*.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0; 
+    background: deepskyblue;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: #1565C0;
+  }
+  
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+@media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }*/
+
+/* Logo styling */
+
+.headerlogo {
+    display: block;
+    max-width: 10%; 
+    height: auto; 
+    margin-right: 5%;
+    float: left; 
+}
+
+/* Home */
+
+.imagecontainer {
+    position: relative;
+    width: 100%;
+    max-width: 100%; 
+    overflow: hidden;
+}
+
+.groupwalk {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: none; 
+}
+
+.coloroverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(72, 184, 94, 0.7), rgba(60, 173, 211, 0.7)); /* Adjust the colors and opacity as needed */
+    pointer-events: none; 
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 500%;
+    font-family: "finalsix", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+/* About */
+
+
+
+
+/* Event */
+
+
+
+
+/* Merch */
+
+
+
+
+/* Contact */
+
+
+
+
+
+
+/* Media queries */
