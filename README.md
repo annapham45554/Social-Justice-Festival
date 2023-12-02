@@ -108,4 +108,6 @@ The general layout of the website was executed in Adobe XD for high-fidelity wir
 <br>
 <a href="https://www.istockphoto.com/photo/joyful-students-on-campus-gm1303106851-394657510?phrase=vietnamese+friends&searchscope=image%2Cfilm">Group of Asian friends talking</a>
 <br>
-<a href="https://stock.adobe.com/images/more-than-you-expect-custom-apparel-clothes-neatly-folded-on-shelves-stack-of-colorful-clothing-and-baseball-cap-in-the-store/347644497?prev_url=detail">Hats and clothes</a>
+<a href="https://www.istockphoto.com/photo/clothes-shop-costume-dress-fashion-store-style-concept-gm955641488-260915968">Clothes</a>
+<br>
+<a href="https://pixabay.com/photos/jasmin-jasmine-flower-flower-3617660/">Jasmine flower</a>
