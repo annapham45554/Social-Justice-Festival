@@ -1,43 +1,77 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Header */
-header{
-    display: flex;
-    position: sticky;
+
+.navbar {
+  width: 100%;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
 }
 
+.headerlogo {
+  display: block;
+  max-width: 8%; 
+  height: auto; 
+  margin-right: 6%;
+  margin-left: 6%;
+  float: left; 
+}
+
+nav {
+  flex: 1;
+  padding-left: 30%;
+}
+
+nav > ul > li {
+  display: inline-block;
+  list-style: none;
+  margin: 0% 5%;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: #3595B7;
+  font-family: "finalsix", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 150%;
+}
+
+/*
 #home{
-    width: 30%;
-    margin: 0;
-    margin-right: 20%;
+  width: 30%;
+  margin: 0;
+  margin-right: 20%;
 }
 
 .colorlogocontainer {
-    display: block;
-    padding-left: 2em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    overflow: hidden; 
-    max-width: 1000px;
-    min-width: 500px;
+  display: block;
+  padding-left: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  overflow: hidden; 
+  max-width: 1000px;
+  min-width: 500px;
 }
 
 .menu{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
 }
 
 .menu > a {
-    display: block;
-    padding: 1em;
+  display: block;
+  padding: 1em;
 }
 
-/*.navigation {
+.navigation {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -77,55 +111,55 @@ header{
     }
     .navigation li:last-of-type a {
       border-bottom: none;
-    }
-  }*/
-
-/* Logo styling */
+}
 
 .headerlogo {
-    display: block;
-    max-width: 10%; 
-    height: auto; 
-    margin-right: 5%;
-    float: left; 
+  display: block;
+  max-width: 10%; 
+  height: auto; 
+  margin-right: 5%;
+  float: left; 
 }
+*/
+
 
 /* Home */
 
 .imagecontainer {
-    position: relative;
-    width: 100%;
-    max-width: 100%; 
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 100%; 
+  overflow: hidden;
 }
 
 .groupwalk {
-    width: 100%;
-    height: auto;
-    display: block;
-    border: none; 
+  width: 100%;
+  height: auto;
+  display: block;
+  border: none; 
 }
 
 .coloroverlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(72, 184, 94, 0.7), rgba(60, 173, 211, 0.7)); /* Adjust the colors and opacity as needed */
-    pointer-events: none; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(72, 184, 94, 0.8), rgba(60, 173, 211, 0.8)); /* Adjust the colors and opacity as needed */
+  pointer-events: none; 
+}
 
 .overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 500%;
-    font-family: "finalsix", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 500%;
+  font-family: "finalsix", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
 }
 
 /* About */
@@ -150,4 +184,3 @@ header{
 
 
 
-/* Media queries */
