@@ -18,7 +18,7 @@ Asian Mind Care’s website consists of 5 pages: Home, About, Event, Merchandise
 
 ## Technical overview
 The general layout of the website was executed in Adobe XD for high-fidelity wireframes. The logo and graphic images were executed in Adobe Illustrator. 
-<img src="../Anna_Pham_Social-Justice-Festival/img/hi-fi wireframe.png" alt="Asian Mind Care">
+<img src="./img/hi-fi wireframe.png" alt="Asian Mind Care">
 
 <a href ="https://xd.adobe.com/view/19f488c3-3878-4ef8-a4b6-ecc5f5318c68-4ca7/">Adobe XD hi-fi wireframe</a>
 
