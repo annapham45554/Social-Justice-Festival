@@ -14,10 +14,12 @@ body {
 
 /* Header */
 
-header {
+.header {
   position: sticky;
+  top: 0;
   background-color: white;
-  filter: drop-shadow(3px 3px 3px rgb(0, 0, 0, 0.3));
+  filter: drop-shadow(3px 3px 3px rgb(0, 0, 0, 0.2));
+  z-index: 100;
 }
 
 .navbar {
@@ -63,7 +65,7 @@ nav > ul > li > a {
   font-family: "finalsix", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 150%;
+  font-size: 140%;
 }
 
 /* Home */
@@ -94,15 +96,15 @@ nav > ul > li > a {
 
 .overlay-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 60%;
+  left: 30%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 500%;
+  font-size: 300%;
   font-family: "finalsix", sans-serif;
   font-weight: 600;
   font-style: normal;
-  text-align: center;
+  text-align: left;
   display: flex;
 }
 
@@ -191,7 +193,7 @@ p {
 
 .footer {
   background: linear-gradient(rgba(72, 184, 94), rgba(60, 173, 211));
-  padding: 5% 0;
+  padding: 3% 0;
 }
 
 .footercontainer {
@@ -207,7 +209,7 @@ p {
 
 .footerlogo {
   display: block;
-  width: 8%; 
+  width: 7%; 
   margin-left: 8%;
   height: auto;
   float: left;
@@ -229,7 +231,7 @@ ul {
 
 .footer-menu {
   width: 25%;
-  padding: 0 5%;
+  padding: 0 1%;
   line-height: 2;
 }
 
@@ -240,7 +242,7 @@ ul {
   font-style: normal;
   font-size: 140%;
   margin-bottom: 5%;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .footer-menu > ul > li {
@@ -248,7 +250,7 @@ ul {
   font-family: "europa", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 125%;
+  font-size: 100%;
 }
 
 .footer-menu > ul > li > a {
@@ -265,7 +267,7 @@ ul {
   height: 10%;
   width: 10%;
   color: white;
-  margin: 0 15% 15% 0;
+  margin: 0 5% 5% 0;
   text-align: center;
   text-decoration: none;
   font-size: 160%;
@@ -280,7 +282,7 @@ ul {
   text-align: center;
   margin-left: 40%;
   margin-right: 40%;
-  margin-top: 7%;
+  margin-top: 8%;
   color: white;
 }
 
