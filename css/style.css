@@ -113,12 +113,13 @@ nav > ul > li > a {
   font-family: "bigcity-grotesque-pro", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 200%;
+  font-size: 180%;
   display: flex;
   text-align: left;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 4%;
+  text-align: justify;
 }
 
 .heading {
@@ -128,6 +129,8 @@ nav > ul > li > a {
   font-style: normal;
   font-size: 130%;
   display: flex;
+  margin-top: 3%;
+  margin-bottom: 0.75%;
 }
 
 p {
@@ -139,34 +142,32 @@ p {
   display: flex;
 }
 
-#left {
-  margin-left: 10%;
-  margin-top: 4%;
+.left {
+  margin-left: 15%;
 }
 
 .pleft {
   text-align: left;
-  margin-left: 10%;
-  padding-right: 60%;
-  margin-top: 0.1%;
+  margin-left: 15%;
+  padding-right: 55%;
+  text-align: justify;
 }
 
-#right {
-  margin-left: 55%;
-  margin-top: 4%;
+.right {
+  margin-left: 50%;
 }
 
 .pright {
   text-align: left;
-  margin-left: 55%;
-  margin-top: 0.1%;
-  padding-right: 10%;
+  margin-left: 50%;
+  padding-right: 15%;
+  text-align: justify;
 }
 
-#emphasize {
+#encourage {
   color: #3595B7;
-  margin-top: 1%;
-  margin-bottom: 4%;
+  margin-top: 2%;
+  margin-bottom: 5%;
 }
 
 /* About */
@@ -342,12 +343,12 @@ ul {
 .footer-menu > .social-logo > a {
   display: inline-block;
   height: 10%;
-  width: 10%;
+  width: 12%;
   color: white;
   margin: 0 5% 5% 0;
   text-align: center;
   text-decoration: none;
-  font-size: 160%;
+  font-size: 180%;
   margin-top: 3%;
 }
 
