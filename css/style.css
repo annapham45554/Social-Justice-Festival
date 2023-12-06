@@ -414,21 +414,164 @@ ul {
 
 /* RESPONSIVE */
 
-@media only screen and (max-width: 700px) {
+@media (max-width: 800px) {
   nav > ul {
     height: 120px;
     flex-direction: column;
     text-align: center;
-    
   } 
+
+  nav > ul > li > a {
+    font-size: 130%;
+  }
 
   .navbar {
     width: 100%;
-    height: 20vh;
+    height: 15vh;
     margin: auto;
-    /*display: flex;
-    justify-content: flex-start;*/
     align-items: center;
   }
 
+  .headerlogo {
+    display: block;
+    width: 25%; 
+    height: auto;
+    margin-left: 55%;
+    float: center; 
+  }
+
+}
+
+@media (max-width: 850px) {
+  .footer-menu {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 735px) {
+  .Homeoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 300%;
+    text-align: center;
+  }
+
+  .Aboutoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 300%;
+    text-align: center;
+  }
+
+  .Eventoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 300%;
+    text-align: center;
+  }
+
+  .Merchoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 300%;
+    text-align: center;
+  }
+
+  .Contactoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 300%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  
+  .introduction > h2 {
+    font-size: 150%;
+    }
+
+  .heading {
+    font-size: 1.5rem;
+    }
+    
+  p {
+    font-size: 130%;
+    }
+  
+  .footer-menu {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-menu > .social-logo > a {
+    margin: 0;
+  }
+
+  .footerlogo {
+    display: none;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .Homeoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 230%;
+    text-align: center;
+  }
+
+  .Aboutoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 230%;
+    text-align: center;
+  }
+
+  .Eventoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 230%;
+    text-align: center;
+  }
+
+  .Merchoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 230%;
+    text-align: center;
+  }
+
+  .Contactoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 230%;
+    text-align: center;
+  }
+
+  .rowbody{
+    flex-direction: column;
+  }
+
+  .rowbody.reverse{
+    flex-direction: column-reverse;
+  }
+
+  .textcontainer{
+    width: 100%;
+  }
+
+  .bodyimagecontainer{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 7%;
+  }
+
+  .depressionbox{
+    width: 70%;
+    margin-left: auto;
+  }
 }
