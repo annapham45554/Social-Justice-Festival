@@ -15,7 +15,7 @@ body {
   animation-name: Appear ;
   animation-delay: none;
   animation-direction: alternate;
-  animation-duration: 2.5s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
   animation-iteration-count: once;
   animation-timing-function: ease-out;
