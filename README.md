@@ -77,6 +77,8 @@ The general layout of the website was executed in Adobe XD for high-fidelity wir
 <br>
 <a href="https://www.w3schools.com/howto/howto_css_social_media_buttons.asp">Social Media buttons</a> 
 
+<a href="https://www.w3schools.com/howto/howto_css_contact_form.asp">Create a contact form</a>
+
 #### Image sources:
 <a href="https://www.freepik.com/premium-photo/asian-woman-hold-camera-art-gallery-collection-front-framed-paintings-pictures_30922615.htm">Woman with a camera</a>
 <br>
