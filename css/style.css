@@ -863,6 +863,7 @@ ul {
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
+    cursor: pointer;
   }
 
   .Merchoverlay-text {
@@ -948,6 +949,7 @@ ul {
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
+    cursor: pointer;
   }
 
   .Merchoverlay-text {
