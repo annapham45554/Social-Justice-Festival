@@ -66,6 +66,15 @@ nav > ul > li > a {
   font-weight: 400;
   font-style: normal;
   font-size: 140%;
+  transition-property: text-decoration;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: none;
+}
+
+nav > ul > li > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #3595B7;
 }
 
 /* HOME */
@@ -350,6 +359,14 @@ p {
 .smallticketcontainer {
   width: 45%;
   margin-top: 3%;
+  cursor: pointer;
+  animation-name: scaleTicketButton;
+  animation-delay: none;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
 }
 
 .ticket {
@@ -553,6 +570,10 @@ input[type=submit] {
   padding: 1.5% 3%;
   border: none;
   border-radius: 50px;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: none;
   cursor: pointer;
 }
 
@@ -649,6 +670,16 @@ ul {
   font-weight: 300;
   font-style: normal;
   font-size: 105%;
+  transition-property: text-decoration;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: none;
+  cursor: pointer;
+}
+
+.footer-menu > ul > li:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
 }
 
 .footer-menu > ul > li > a {
@@ -658,6 +689,15 @@ ul {
   font-style: normal;
   font-size: 100%;
   text-decoration: none;
+  transition-property: text-decoration;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: none;
+}
+
+.footer-menu > ul > li > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
 }
 
 .footer-menu > .social-logo > a {
@@ -686,6 +726,32 @@ ul {
 
 /* KEYFRAMES */
 
+@keyframes scaleTicketButton {
+  from {
+    width: 45%;
+}
+  to {
+  transform: scale(70%);
+  }
+}
+
+@keyframes scaleTicketButton2 {
+  from {
+    width: 50%;
+}
+  to {
+  transform: scale(60%);
+  }
+}
+
+@keyframes scaleTicketButton3 {
+  from {
+    width: 70%;
+}
+  to {
+  transform: scale(80%);
+  }
+}
 
 
 /* RESPONSIVE */
@@ -790,6 +856,13 @@ ul {
   .smallticketcontainer2 {
     width: 50%;
     padding-top: 5%;
+    animation-name: scaleTicketButton2;
+    animation-delay: none;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
   }
 
   .Merchoverlay-text {
@@ -868,6 +941,13 @@ ul {
   .smallticketcontainer2 {
     width: 70%;
     margin: auto;
+    animation-name: scaleTicketButton3;
+    animation-delay: none;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
   }
 
   .Merchoverlay-text {
