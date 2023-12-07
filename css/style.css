@@ -278,7 +278,7 @@ p {
   max-width: 612px;
   height: auto;
   display: block;
-  border-radius: 50%;
+  border-radius: 90px;
 }
 
 .reading {
@@ -286,7 +286,7 @@ p {
   max-width: 612px;
   height: auto;
   display: block;
-  border-radius: 50%;
+  border-radius: 90px;
 }
 
 .therapy {
@@ -294,7 +294,7 @@ p {
   max-width: 612px;
   height: auto;
   display: block;
-  border-radius: 50%;
+  border-radius: 90px;
 }
 
 .community {
@@ -532,6 +532,46 @@ p {
   display: flex;
 }
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 2%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 1.5%;
+  margin-bottom: 3%;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #3cadd3;
+  font-family: "finalsix", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100%;
+  color: white;
+  padding: 1.5% 3%;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #47b85e;
+}
+
+.contactformcontainer {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 4%;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 5%;
+  font-family: "bigcity-grotesque-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120%;
+}
 
 /* FOOTER */
 
@@ -671,6 +711,11 @@ ul {
     margin-left: 55%;
     float: center; 
   }
+
+  .contactformcontainer {
+    width: 70%;
+  }
+  
 
 }
 
@@ -843,5 +888,10 @@ ul {
   .depressionbox{
     width: 70%;
     margin-left: auto;
+  }
+
+  .contactformcontainer {
+    width: 90%;
+    font-size: 100%;
   }
 }
