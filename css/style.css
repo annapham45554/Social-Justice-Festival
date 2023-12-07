@@ -629,6 +629,20 @@ ul {
   margin-top: 5%;
 }
 
+.footer-menu > a > h3 {
+  color: white;
+  font-family: "finalsix", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 140%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.removeunderline {
+  text-decoration: none;
+}
+
 .footer-menu > ul > li {
   color: white;
   font-family: "europa", sans-serif;
@@ -827,21 +841,21 @@ ul {
   .Homeoverlay-text {
     top: 50%;
     left: 50%;
-    font-size: 230%;
+    font-size: 215%;
     text-align: center;
   }
 
   .Aboutoverlay-text {
     top: 50%;
     left: 50%;
-    font-size: 230%;
+    font-size: 215%;
     text-align: center;
   }
 
   .Eventoverlay-text {
     top: 50%;
     left: 50%;
-    font-size: 230%;
+    font-size: 215%;
     text-align: center;
   }
 
@@ -898,7 +912,7 @@ ul {
   }
 
   .contactformcontainer {
-    width: 90%;
+    width: 95%;
     font-size: 100%;
   }
 }
