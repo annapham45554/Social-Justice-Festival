@@ -684,6 +684,13 @@ ul {
   .smallticketcontainer {
     width: 40%;
   }
+
+  .Merchoverlay-text {
+    top: 50%;
+    left: 50%;
+    font-size: 350%;
+    text-align: center;
+  }
   
 }
 
