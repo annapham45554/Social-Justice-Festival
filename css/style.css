@@ -128,7 +128,6 @@ nav > ul > li > a {
   font-weight: 700;
   font-style: normal;
   font-size: 2rem;
-  display: flex;
   margin-top: 3%;
   margin-bottom: 0.75%;
 }
@@ -255,31 +254,47 @@ p {
 }
 
 .smallimagecontainer {
-  position: relative;
-  width: 15%;
-  max-width: 100%; 
-  overflow: hidden;
+  width: 27%;
+}
+
+.doublerow{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content:space-around;
+}
+
+.imagecollectioncontainer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
 }
 
 .typing {
-  max-width: 100%;
+  width: 100%;
+  max-width: 612px;
   height: auto;
   display: block;
   border-radius: 50%;
 }
 
 .reading {
-  max-width: 100%;
+  width: 100%;
+  max-width: 612px;
   height: auto;
   display: block;
   border-radius: 50%;
 }
 
 .therapy {
-  max-width: 100%;
+  width: 100%;
+  max-width: 612px;
   height: auto;
   display: block;
-  border-radius: 50%; 
+  border-radius: 50%;
 }
 
 .smallcoloroverlay {
