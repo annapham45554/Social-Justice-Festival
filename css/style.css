@@ -359,6 +359,26 @@ p {
   display: block;
 }
 
+.Eventinvitation /* For media query */ { 
+  display: none;
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: #414141;
+  font-size: 150%;
+  font-family: "finalsix", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  flex-direction: column;
+  text-align: center;
+}
+
+.smallticketcontainer2 {
+  width: 30%;
+  padding-top: 4%;
+  margin: 0;
+}
+
 .peoplebox{
   margin-left: 5%;
   width: 38%;
@@ -429,7 +449,6 @@ p {
   text-align: left;
   display: flex;
 }
-
 
 /* CONTACT */
 
@@ -558,6 +577,17 @@ ul {
 
 /* RESPONSIVE */
 
+@media (max-width: 960px) {
+  .invitation {
+    font-size: 110%;
+  }
+  
+  .smallticketcontainer {
+    width: 40%;
+  }
+  
+}
+
 @media (max-width: 800px) {
   nav > ul {
     height: 120px;
@@ -592,7 +622,7 @@ ul {
   }
 }
 
-@media (max-width: 735px) {
+@media (max-width: 700px) {
   
   .headerlogo {
     width: 25%; 
@@ -620,6 +650,21 @@ ul {
     left: 50%;
     font-size: 300%;
     text-align: center;
+  }
+
+  .invitation {
+    display: none;
+  }
+
+  .Eventinvitation { 
+    display: block;
+    font-size: 150%;
+    text-align: left;
+  }
+  
+  .smallticketcontainer2 {
+    width: 50%;
+    padding-top: 5%;
   }
 
   .Merchoverlay-text {
@@ -687,6 +732,17 @@ ul {
     left: 50%;
     font-size: 230%;
     text-align: center;
+  }
+
+  .Eventinvitation { 
+    font-size: 140%;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .smallticketcontainer2 {
+    width: 70%;
+    margin: auto;
   }
 
   .Merchoverlay-text {
