@@ -301,7 +301,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  width: 10%;
+  width: 100%;
   height: auto;
   background: linear-gradient(rgba(72, 184, 94, 0.8), rgba(60, 173, 211, 0.8));
   border-radius: 50%;
