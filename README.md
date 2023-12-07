@@ -96,7 +96,7 @@ The general layout of the website was executed in Adobe XD for high-fidelity wir
 <br>
 <a href="https://www.istockphoto.com/photo/big-friend-hug-gm484480936-71772735">Asian group hug</a>
 <br>
-<a href="https://www.istockphoto.com/photo/website-technical-content-writer-social-blogging-gm1144547939-307750521">Hand typing PC</a>
+<a href="https://www.forbes.com/sites/forbesbusinesscouncil/2020/06/19/the-case-for-measuring-the-effectiveness-of-leadership-communications/?sh=650564a07f23">Hand typing PC</a>
 <br>
 <a href="https://linktr.ee/ravi.yoga">Ravi Dixit</a>
 <br>

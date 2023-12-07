@@ -118,7 +118,7 @@ nav > ul > li > a {
   text-align: left;
   margin-left: 15%;
   margin-right: 15%;
-  margin-top: 4%;
+  margin-top: 3%;
   /*text-align: justify;*/
 }
 
@@ -248,6 +248,64 @@ p {
   max-width: 2538px;
   width: 100%;
   height: auto;
+}
+
+.pmiddle {
+  text-align: center;
+}
+
+.smallimagecontainer {
+  position: relative;
+  width: 15%;
+  max-width: 100%; 
+  overflow: hidden;
+}
+
+.typing {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.reading {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.therapy {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 50%; 
+}
+
+.smallcoloroverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: auto;
+  background: linear-gradient(rgba(72, 184, 94, 0.8), rgba(60, 173, 211, 0.8));
+  border-radius: 50%;
+}
+
+.community {
+  max-width: 2270px;
+  width: 100%;
+  height: auto;
+}
+
+.communitybox{
+  margin-left: 5%;
+  width: 33%;
+  margin-right: 5%;
+}
+
+.bottomspace {
+  margin-bottom: 5%;
 }
 
 /* EVENT */
