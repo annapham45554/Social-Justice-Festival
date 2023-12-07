@@ -11,6 +11,15 @@ body {
   min-height: 100vh;
 }
 
+.Animate {
+  animation-name: Appear ;
+  animation-delay: none;
+  animation-direction: alternate;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: once;
+  animation-timing-function: ease-out;
+}
 
 /* HEADER */
 
@@ -222,6 +231,21 @@ p {
   margin-top: 1%;
   margin-bottom: 5%;
 }
+
+/*#joinlink {
+  color: #3595B7;
+  padding-right: 0.75%;
+  text-decoration: none;
+  transition-property: text-decoration;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: none;
+}
+
+#joinlink:hover {
+  text-decoration: underline;
+  text-decoration-color: #3595B7;
+}*/
 
 /* ABOUT */
 
@@ -491,6 +515,15 @@ p {
   width: 25%;
   padding-left: 0.5%;
   padding-right: 0.5%;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: none;
+  cursor: pointer;
+}
+
+.merchcontainer:hover {
+  transform: scale(90%);
 }
 
 .hat {
@@ -753,6 +786,14 @@ ul {
   }
 }
 
+@keyframes Appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
 
 /* RESPONSIVE */
 
@@ -890,7 +931,7 @@ ul {
   .heading {
     font-size: 1.5rem;
     }
-    
+
   p {
     font-size: 130%;
     }
