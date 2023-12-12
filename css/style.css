@@ -171,7 +171,6 @@ p {
 }
 
 .textcontainer{
-  /*margin-left: 15%;*/
   display: inline-block;
   flex-grow: 3;
   width: 50%;
@@ -232,21 +231,6 @@ p {
   margin-bottom: 5%;
 }
 
-/*#joinlink {
-  color: #3595B7;
-  padding-right: 0.75%;
-  text-decoration: none;
-  transition-property: text-decoration;
-  transition-duration: 1s;
-  transition-timing-function: ease-out;
-  transition-delay: none;
-}
-
-#joinlink:hover {
-  text-decoration: underline;
-  text-decoration-color: #3595B7;
-}*/
-
 /* ABOUT */
 
 .womanthinking {
@@ -271,9 +255,9 @@ p {
 }
 
 .sharingbox{
-  margin-left: 10%;
-  width: 30%;
-  margin-right: 10%;
+  margin-left: 5%;
+  width: 35%;
+  margin-right: 5%;
 }
 
 .sharing {
@@ -373,7 +357,7 @@ p {
   top: 50%;
   left: 65%;
   color: white;
-  font-size: 160%;
+  font-size: 150%;
   font-family: "finalsix", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -406,7 +390,7 @@ p {
   margin-left: 15%;
   margin-right: 15%;
   color: #414141;
-  font-size: 150%;
+  font-size: 140%;
   font-family: "finalsix", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -1035,7 +1019,12 @@ ul {
   }
 
   .contactformcontainer {
-    width: 95%;
+    border-radius: 0;
+    width: 100%;
     font-size: 100%;
+  }
+
+  input[type=submit] {
+    font-size: 80%;
   }
 }
